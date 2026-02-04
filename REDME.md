@@ -1,26 +1,53 @@
 # Employee Task Management System
 
-A full-stack application built using Spring Boot and React.
+A full-stack Employee Task Management System built using **Spring Boot**, **React**, and **MySQL**.
 
-## Tech Stack
+This application helps manage employees, attendance, and salary data through a modern dashboard UI.
+
+---
+
+## 🚀 Features
+
+- Employee management (Add, Edit, Delete)
+- Attendance tracking (Present / Absent)
+- Salary calculation and department-wise analytics
+- Dashboard with charts and statistics
+- Export employee and attendance data to Excel
+- REST API based backend
+- Responsive frontend UI
+
+---
+
+## 🛠 Tech Stack
+
 ### Backend
 - Java
 - Spring Boot
+- Spring Data JPA (Hibernate)
 - MySQL
-- JPA / Hibernate
+- REST APIs
 
 ### Frontend
-- React
+- React.js
 - Axios
-- Bootstrap
+- Bootstrap & React-Bootstrap
 - Chart.js
+- XLSX & File Saver
 
-## How to Run
-### Backend
-- Run Spring Boot application
-- Server runs on http://localhost:8080
+---
 
-### Frontend
-- npm install
-- npm start
-- App runs on http://localhost:3000
+## 🧩 Project Architecture
+
+- Frontend communicates with backend using REST APIs
+- Backend handles business logic and database operations
+- MySQL stores employee and attendance data
+
+---
+
+## ▶️ How to Run the Project
+
+### Backend (Spring Boot)
+1. Open backend project in IDE (IntelliJ / Eclipse)
+2. Configure MySQL database in `application.properties`
+3. Run the Spring Boot application
+4. Backend runs on:
